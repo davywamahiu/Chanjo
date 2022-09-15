@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/checkHistory"
+            android:title="Check Child History"
+            android:icon="@drawable/ic_search_black_24dp"
+            />
+        <item android:id="@+id/Report"
+            android:title="Report Issue"
+            android:icon="@drawable/ic_report_black_24dp"/>
+        <item android:id="@+id/notifications"
+            android:title="Notifications"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            />
+        <item
+            android:id="@+id/readmore"
+            android:title="Read More"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            />
+    </group>
+    <item
+        android:title="Contact Us"
+        >
+        <menu>
+            <item android:title="Email"
+                android:id="@+id/emailChanjo"
+                android:icon="@drawable/ic_email_black_24dp"
+                />
+            <item
+                android:id="@+id/help"
+                android:title="Help"
+                android:icon="@drawable/ic_help_black_24dp"
+                />
+
+        </menu>
+    </item>
+
+</menu>

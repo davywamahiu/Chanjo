@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CHANJO</string>
+    <string name="action_settings">Settings</string>
+    <string name="immunize">Immunize</string>
+    <string name="AddChild">Add Child</string>
+    <string name="Logout">Logout</string>
+    <string name="notifications">Notifications</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="developers">Developers</string>
+    <string name="statistics">Statistics</string>
+    <string name="report">Report</string>
+    <string name="vaccines">Vaccines</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="title">Notification Title</string>
+    <string name="description">Description</string>
+    <string name="addNotification">Post Notification</string>
+    <string name="enterTitle">Enter Title</string>
+    <string name="enterDescription">Enter Description</string>
+    <string name="title_activity_reports">ReportsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_immunize">ImmunizeActivity</string>
+    <string name="birth_certificate_no">Birth Certificate No</string>
+    <string name="success_BCN">BCTN captured</string>
+    <string name="error_bcn_not_given">Error Proved BCTN</string>
+    <string name="millde_name">Millde Name</string>
+    <string name="first_name">First Name</string>
+    <string name="immunize1">Immunize</string>
+    <string name="notify">Notification</string>
+    <string name="title_activity_treatment_reports">treatment_reports</string>
+    <string name="title_activity_main2">CHANJO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Chanjo</string>
+    <string name="nav_header_subtitle">chanjo@kenya.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity">Chanjo links</string>
+    <string-array name="vaccines">
+        <item>-Select Vaccine-</item>
+        <item>BCG vaccine</item>
+        <item>Diphtheria toxoid vaccine</item>
+        <item>Measles vaccine</item>
+        <item>Oral Polio Vaccine</item>
+        <item>Tetanus toxoid vaccine</item>
+        <item>whole cell Pertusis vaccine</item>
+    </string-array>
+    <string name="title_activity_child_history">CHILD HISTORY</string>
+    <string name="title_activity_records">RecordsActivity</string>
+    <string name="welcome_to_chanjo">Welcome To Chanjo</string>
+    <string name="title_activity_opfd">opfd</string>
+    <string-array name="gender">
+        <item>-Select Gender-</item>
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+</resources>

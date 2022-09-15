@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingBottom="10dp">
+<TextView
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:paddingLeft="5dp"
+    android:id="@+id/vac"
+  />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sta"
+        android:textColor="#22DD00"
+        android:textSize="12sp"
+        android:layout_marginLeft="20dp"
+        />
+ <TextView
+    android:id="@+id/doctor"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+     android:textSize="12sp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textSize="12sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="20dp"
+        android:gravity="start" />
+
+</LinearLayout>

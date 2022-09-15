@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="title will be here"
+                android:id="@+id/textViewCaseTitle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@id/textViewCaseTitle"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textStyle="italic"
+                android:textSize="14dp"
+                android:text="desc will be here"
+                android:id="@+id/textViewCaseDesc"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCasePhone"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:text="0708462138"
+                android:layout_below="@+id/textViewCaseDesc"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
